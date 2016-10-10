@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhl.tabindicatorview.view.TabItemView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        app:tab_position="0"
+        app:tab_title="近三月" />
+
+    <com.zhl.tabindicatorview.view.TabIndicatorView
+        android:id="@+id/tab_indicator_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+
+    <com.zhl.tabindicatorview.view.TabIndicatorView
+        android:id="@+id/tab_indicator_view2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        app:tabCheckBGcolor="#4ea6ed"
+        app:tabCheckedTextColor="#efffff"
+        app:tabCornerRadiu="10"
+        app:tabUnCheckBGcolor="#4ea6ed"
+        app:tabUnCheckedTextColor="#4ea6ed" />
+</LinearLayout>

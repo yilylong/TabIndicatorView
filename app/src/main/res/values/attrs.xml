@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabItemView">
+        <attr name="tab_strokecheck_color" format="color|reference" />
+        <attr name="tab_strokeuncheck_color" format="color|reference" />
+        <attr name="tab_selected_color" format="color|reference" />
+        <attr name="title_unselected_color" format="color|reference" />
+        <attr name="title_selected_color" format="color|reference" />
+        <attr name="tab_stroke_width" format="integer|reference" />
+        <attr name="tab_textsize" format="integer|reference" />
+        <attr name="tab_roundradiu" format="integer|reference" />
+        <attr name="tab_title" format="string|reference" />
+        <attr name="tab_position" format="integer|reference" />
+        <attr name="tab_state" format="enum">
+            <enum name="unselected" value="0" />
+            <enum name="selected" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TabIndicatorView">
+        <attr name="tabTextSize" format="integer|reference" />
+        <attr name="tabCornerRadiu" format="integer|reference" />
+        <attr name="tabBorderWidth" format="integer|reference" />
+        <attr name="tabCheckedTextColor" format="color|reference" />
+        <attr name="tabUnCheckedTextColor" format="color|reference" />
+        <attr name="tabCheckBGcolor" format="color|reference" />
+        <attr name="tabUnCheckBGcolor" format="color|reference" />
+        <attr name="defaultCheckedPos" format="integer|reference" />
+    </declare-styleable>
+</resources>
