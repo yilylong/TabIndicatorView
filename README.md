@@ -18,7 +18,7 @@ useage
 stpe2.Add the dependency:
 -
     dependencies {
-	        compile 'com.github.yilylong:TabIndicatorView:1.0.0'
+	        compile 'com.github.yilylong:TabIndicatorView:1.0.1'
 	}
 
 
