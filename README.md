@@ -1,10 +1,29 @@
-# TabIndicatorView
+[![](https://www.jitpack.io/v/yilylong/TabIndicatorView.svg)](https://www.jitpack.io/#yilylong/TabIndicatorView)# TabIndicatorView
 一个简单的tab导航控件
 
 <img src="GIF.gif"></br>
 
 useage
 ---
+ step1.Add it in your root build.gradle at the end of repositories:
+-
+
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+
+stpe2.Add the dependency:
+-
+    dependencies {
+	        compile 'com.github.yilylong:TabIndicatorView:1.0.0'
+	}
+
+
+
+
 in your xml:
 -
 
