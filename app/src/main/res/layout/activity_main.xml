@@ -16,15 +16,6 @@
         app:tab_position="0"
         app:tab_title="近三月" />
 
-    <com.zhl.tabindicatorview.view.PswdItemView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        app:tab_position="0"
-        app:tab_title="近三月" />
-
     <com.zhl.tabindicatorview.view.TabIndicatorView
         android:id="@+id/tab_indicator_view"
         android:layout_width="match_parent"
@@ -46,22 +37,4 @@
         app:tabUnCheckBGcolor="#4ea6ed"
         app:tabUnCheckedTextColor="#4ea6ed" />
 
-    <com.zhl.tabindicatorview.view.PswdInputView
-        android:id="@+id/tab_indicator_view3"
-        android:layout_width="match_parent"
-        android:layout_height="58dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="20dp" />
-
-    <Button
-        android:id="@+id/addBtn"
-        android:layout_width="match_parent"
-        android:text="insert"
-        android:layout_height="50dp" />
-    <Button
-        android:id="@+id/removebtn"
-        android:layout_width="match_parent"
-        android:text="remove"
-        android:layout_height="50dp" />
 </LinearLayout>

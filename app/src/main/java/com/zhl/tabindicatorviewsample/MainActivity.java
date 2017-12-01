@@ -7,7 +7,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.zhl.tabindicatorview.bean.TabItem;
-import com.zhl.tabindicatorview.view.PswdInputView;
 import com.zhl.tabindicatorview.view.TabIndicatorView;
 import com.zhl.tabindicatorview.view.TabItemView;
 
